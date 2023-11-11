@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fast-todo"
+version = "0.1.0"
+description = "Com esse projeto temos a inteção de estudar a criação de API's com fastAPI. Orientação Riverfount."
+authors = ["Jorge Luiz Plautz <jorge.plautz@gmail.com>"]
+license = "GPLv3+"
+readme = "README.md"
+packages = [{include = "fast_todo"}]
+
+[tool.poetry.dependencies]
+python = "3.12.0a5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
